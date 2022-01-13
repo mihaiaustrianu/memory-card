@@ -5,7 +5,8 @@ import NavbarComponent from "./components/NavbarComponent";
 
 
 import GameContainer from "./components/GameContainer";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Container } from "react-bootstrap";
 
 
 function App() {
@@ -46,10 +47,9 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <NavbarComponent score={score} highScore={highScore}></NavbarComponent>
       <GameContainer handleChoice={handleChoice} score={score}/>
-      
     </div>
   );
 }

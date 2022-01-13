@@ -2,7 +2,7 @@ import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 function NavbarComponent(props) {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" className="g-4">
       <Container>
         <Navbar.Brand>Memory Game</Navbar.Brand>
         <Navbar.Toggle />

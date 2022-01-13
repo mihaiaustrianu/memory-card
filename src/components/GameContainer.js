@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import CardComponent from "./CardComponent";
-import { Row, Col,Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 function GameContainer(props) {
   const [cardContent, setCardContent] = useState([
@@ -12,6 +12,11 @@ function GameContainer(props) {
     { description: "6dsa", imgSrc: "" ,wasClicked:false},
     { description: "7dsa", imgSrc: "" ,wasClicked:false},
     { description: "8sda", imgSrc: "" ,wasClicked:false},
+    { description: "9sda", imgSrc: "" ,wasClicked:false},
+    { description: "10sda", imgSrc: "" ,wasClicked:false},
+    { description: "11sda", imgSrc: "" ,wasClicked:false},
+    { description: "12sda", imgSrc: "" ,wasClicked:false},
+    
   ]);
   const score = props.score;
 
@@ -29,11 +34,11 @@ function GameContainer(props) {
   }, [score]);
 
   return (
-    <Container fluid>
+    <Container >
       <p>{cardContent.description}</p>
-      <Row xs={1} md={2} lg={2} className="justify-content-center">
+      <Row md="3"lg="4" sd="2">
         {cardContent.map((cardContent, idx) => (
-          <Col  key = {cardContent.description} onClick={()=>props.handleChoice(cardContent.description)}>
+          <Col key = {cardContent.description} onClick={()=>props.handleChoice(cardContent.description)}>
             <CardComponent
               description={cardContent.description}
               imgSrc={cardContent.imgSrc} 
