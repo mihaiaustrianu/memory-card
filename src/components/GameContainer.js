@@ -35,7 +35,7 @@ function GameContainer(props) {
   }, [score]);
 
   return (
-    <Container >
+    <Container fluid > 
       <p>{cardContent.description}</p>
       <Row md="3"lg="4" sd="2">
         {cardContent.map((cardContent, idx) => (
