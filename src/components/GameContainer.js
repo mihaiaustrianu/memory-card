@@ -2,20 +2,21 @@ import { Container } from "react-bootstrap";
 import CardComponent from "./CardComponent";
 import { Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
+
 function GameContainer(props) {
   const [cardContent, setCardContent] = useState([
-    { description: "1asdas", imgSrc: "",wasClicked:false },
-    { description: "2dsaa", imgSrc: "",wasClicked:false },
-    { description: "3asd", imgSrc: "" ,wasClicked:false},
-    { description: "4ads", imgSrc: "" ,wasClicked:false},
-    { description: "5dsa", imgSrc: "" ,wasClicked:false},
-    { description: "6dsa", imgSrc: "" ,wasClicked:false},
-    { description: "7dsa", imgSrc: "" ,wasClicked:false},
-    { description: "8sda", imgSrc: "" ,wasClicked:false},
-    { description: "9sda", imgSrc: "" ,wasClicked:false},
-    { description: "10sda", imgSrc: "" ,wasClicked:false},
-    { description: "11sda", imgSrc: "" ,wasClicked:false},
-    { description: "12sda", imgSrc: "" ,wasClicked:false},
+    { description: "Bulbasaur", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",wasClicked:false },
+    { description: "Charmander", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",wasClicked:false },
+    { description: "Squirtle", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" ,wasClicked:false},
+    { description: "Pidgey", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png" ,wasClicked:false},
+    { description: "Rattata", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png" ,wasClicked:false},
+    { description: "Ekans", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png" ,wasClicked:false},
+    { description: "Pikachu", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" ,wasClicked:false},
+    { description: "Nidoran", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png" ,wasClicked:false},
+    { description: "Clefairy", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png" ,wasClicked:false},
+    { description: "Vulpix", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png" ,wasClicked:false},
+    { description: "Jigglypuff", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png" ,wasClicked:false},
+    { description: "Oddish", imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png" ,wasClicked:false},
     
   ]);
   const score = props.score;
