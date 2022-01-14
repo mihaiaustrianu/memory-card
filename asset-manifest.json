@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mihaiaustrianu/memory-card/static/css/main.1d813586.css",
-    "main.js": "/mihaiaustrianu/memory-card/static/js/main.5d16ba39.js",
-    "index.html": "/mihaiaustrianu/memory-card/index.html",
-    "main.1d813586.css.map": "/mihaiaustrianu/memory-card/static/css/main.1d813586.css.map",
-    "main.5d16ba39.js.map": "/mihaiaustrianu/memory-card/static/js/main.5d16ba39.js.map"
+    "main.css": "/static/css/main.1d813586.css",
+    "main.js": "/static/js/main.5d16ba39.js",
+    "index.html": "/index.html",
+    "main.1d813586.css.map": "/static/css/main.1d813586.css.map",
+    "main.5d16ba39.js.map": "/static/js/main.5d16ba39.js.map"
   },
   "entrypoints": [
     "static/css/main.1d813586.css",
