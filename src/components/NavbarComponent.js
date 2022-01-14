@@ -9,7 +9,7 @@ function NavbarComponent(props) {
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
             <p>Score : {props.score}</p>
-            <p>HighScore : {props.score}</p>
+            <p>HighScore : {props.highScore}</p>
           </Navbar.Text>
           
         </Navbar.Collapse>
